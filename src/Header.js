@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import CV from "../src/images/LorenaGomezPerez.pdf";
 import Logo from "../src/images/logo.png";
 
-
 function Header() {
   return (
     <div>
