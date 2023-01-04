@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      <h2 className="contact">* Contáctame *</h2>
+      <h2 id="Contacts" className="contact">* Contáctame *</h2>
       <div className="contactContainer">
         <div className="iconContainer">
           <a title="llamar por teléfono" href="tel+600757306" target="_blank">

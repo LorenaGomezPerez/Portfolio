@@ -43,7 +43,7 @@ function Header() {
               spy={true}
               smooth={true}
               offset={-20}
-              duration={1000}
+              duration={500}
               rel="noreferrer"
             >
               Contacto
