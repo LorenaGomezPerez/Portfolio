@@ -53,7 +53,6 @@ function Contact() {
             rel="noreferrer"
           >
             <i className="fa-brands fa-twitter icon"/>
-			
           </a>
         </div>
       </div>
