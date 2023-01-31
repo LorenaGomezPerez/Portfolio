@@ -4,6 +4,7 @@ import Coctails from "../src/images/Coctails.png";
 import Owen from "../src/images/Owen.png";
 import Cards from "../src/images/Cards.png";
 import CardsRef from "../src/images/CardsRefactoring.png";
+import Calculator from "../src/images/calculator.png";
 import "../src/styles/App.css";
 
 function Proyectos() {
@@ -39,21 +40,19 @@ function Proyectos() {
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
-            <img src={Equipo} alt="Proyecto" />
+            <img src={Calculator} alt="Proyecto" />
             <button className="btnMoreInf">Más información</button>
           </div>
           <div className="flip-card-back">
             <h2 className="flip-card-back-title">Proyecto:</h2>
             <p className="flip-card-back-info">
-              Desarrollo de una primera web colaborativa. Para ello crearemos
-              una web con la información social de todos los miembros del equipo
+              Desarrollo de una calculadora simple.
             </p>
             <h2 className="flip-card-back-title">Tecnologías utilizadas:</h2>
             <p className="flip-card-back-info">
-              HTML, CSS, diseño responsive, GitHub pages, Sass, grid, gulp
-            </p>
-            <h2 className="flip-card-back-title">Metodología de trabajo:</h2>
-            <p className="flip-card-back-info">Scrum y Agile</p>
+              HTML, CSS, Javascript, GitHub pages
+			  </p>
+            
           </div>
         </div>
       </div>
