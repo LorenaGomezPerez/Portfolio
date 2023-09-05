@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import CV from "../src/images/LorenaGomezPerez.pdf";
+import CV from "../src/images/LorenaGomezPerez2.pdf";
 import Logo from "../src/images/logo.png";
 
 
