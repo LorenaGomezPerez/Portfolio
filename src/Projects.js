@@ -5,6 +5,8 @@ import Owen from "../src/images/Owen.png";
 import Cards from "../src/images/Cards.png";
 import CardsRef from "../src/images/CardsRefactoring.png";
 import Calculator from "../src/images/calculator.png";
+import Bibliography from "../src/images/Bibliography.png";
+import Restaurants from "../src/images/restaurants.png";
 import "../src/styles/App.css";
 
 function Proyectos() {
@@ -125,7 +127,43 @@ function Proyectos() {
           </div>
         </div>
       </div>
-      {/* // sexto proyecto */}
+	   {/* // séptimo proyecto */}
+	   <div className="flip-card">
+        <div className="flip-card-inner">
+          <div className="flip-card-front">
+            <img src={Bibliography} alt="Proyecto" />
+            <button className="btnMoreInf">Más información</button>
+          </div>
+          <div className="flip-card-back">
+            <h2 className="flip-card-back-title">Proyecto:</h2>
+            <p className="flip-card-back-info">
+              Desarrollo de una aplicación web que nos permite crear añadir a una lista
+             refencias bibliográficas de la Edad Media.
+            </p>
+            <h2 className="flip-card-back-title">Tecnologías utilizadas:</h2>
+            <p className="flip-card-back-info">HTML, SASS, Javascript, Lit-Elements</p>
+          </div>
+        </div>
+      </div>
+	  {/* // Octavo proyecto */}
+	  <div className="flip-card">
+        <div className="flip-card-inner">
+          <div className="flip-card-front">
+            <img src={Restaurants} alt="Proyecto" />
+            <button className="btnMoreInf">Más información</button>
+          </div>
+          <div className="flip-card-back">
+            <h2 className="flip-card-back-title">Proyecto:</h2>
+            <p className="flip-card-back-info">
+              Desarrollo de una Landing page donde podemos buscar en un listado de restaurantes
+			  y hacer reservas.
+            </p>
+            <h2 className="flip-card-back-title">Tecnologías utilizadas:</h2>
+            <p className="flip-card-back-info">HTML, SASS, Javascript</p>
+          </div>
+        </div>
+      </div>
+      {/* // séptimo proyecto */}
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
