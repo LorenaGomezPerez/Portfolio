@@ -7,6 +7,7 @@ import CardsRef from "../src/images/CardsRefactoring.png";
 import Calculator from "../src/images/calculator.png";
 import Bibliography from "../src/images/Bibliography.png";
 import Restaurants from "../src/images/restaurants.png";
+import RealEstate from "../src/images/realEstate.png";
 import "../src/styles/App.css";
 
 function Proyectos() {
@@ -127,7 +128,7 @@ function Proyectos() {
           </div>
         </div>
       </div>
-	   {/* // séptimo proyecto */}
+	   {/* // sexto proyecto */}
 	   <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
@@ -145,7 +146,7 @@ function Proyectos() {
           </div>
         </div>
       </div>
-	  {/* // Octavo proyecto */}
+	  {/* // séptimo proyecto */}
 	  <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
@@ -163,7 +164,7 @@ function Proyectos() {
           </div>
         </div>
       </div>
-      {/* // séptimo proyecto */}
+      {/* // octavo proyecto */}
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
@@ -182,6 +183,23 @@ function Proyectos() {
             </p>
             <h2 className="flip-card-back-title">Metodología de trabajo:</h2>
             <p className="flip-card-back-info">Scrum y Agile</p>
+          </div>
+        </div>
+      </div>
+	   {/* // noveno proyecto */}
+	  <div className="flip-card">
+        <div className="flip-card-inner">
+          <div className="flip-card-front">
+            <img src={RealEstate} alt="Proyecto" />
+            <button className="btnMoreInf">Más información</button>
+          </div>
+          <div className="flip-card-back">
+            <h2 className="flip-card-back-title">Proyecto:</h2>
+            <p className="flip-card-back-info">
+              Desarrollo de una web para una inmobiliaria donde se gestiona la venta y alquiler de viviendas. En proyecto aún!!
+            </p>
+            <h2 className="flip-card-back-title">Tecnologías utilizadas:</h2>
+            <p className="flip-card-back-info">HTML, SASS, React, Vite, backend </p>
           </div>
         </div>
       </div>
