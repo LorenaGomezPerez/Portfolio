@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.a7680aac.css",
-    "main.js": "./static/js/main.08bfc207.js",
+    "main.js": "./static/js/main.29081214.js",
     "static/media/Equipo.png": "./static/media/Equipo.99ef7ce5019310b4b9f2.png",
     "static/media/Owen.png": "./static/media/Owen.1828ed37b54d436df2f0.png",
     "static/media/black$white.jpg": "./static/media/black$white.7af85417b418de77d623.jpg",
     "static/media/Coctails.png": "./static/media/Coctails.f5fd5ae98b0aa53914e9.png",
     "static/media/LorenaGomezPerez.pdf": "./static/media/LorenaGomezPerez.8b5826aa86e2a01444a7.pdf",
+    "static/media/realEstate.png": "./static/media/realEstate.56119788e1d5e3f28190.png",
     "static/media/CardsRefactoring.png": "./static/media/CardsRefactoring.e61d225e3e6267e179a6.png",
     "static/media/restaurants.png": "./static/media/restaurants.ca665d477fea318616f6.png",
     "static/media/Bibliography.png": "./static/media/Bibliography.f7d6ceae208ae09ba80b.png",
@@ -15,10 +16,10 @@
     "static/media/calculator.png": "./static/media/calculator.446a92a2621279f0ae10.png",
     "index.html": "./index.html",
     "main.a7680aac.css.map": "./static/css/main.a7680aac.css.map",
-    "main.08bfc207.js.map": "./static/js/main.08bfc207.js.map"
+    "main.29081214.js.map": "./static/js/main.29081214.js.map"
   },
   "entrypoints": [
     "static/css/main.a7680aac.css",
-    "static/js/main.08bfc207.js"
+    "static/js/main.29081214.js"
   ]
 }
