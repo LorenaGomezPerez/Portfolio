@@ -7,7 +7,7 @@ import CardsRef from "../src/images/CardsRefactoring.png";
 import Calculator from "../src/images/calculator.png";
 import Bibliography from "../src/images/Bibliography.png";
 import Restaurants from "../src/images/restaurants.png";
-import RealEstate from "../src/images/realEstate.png";
+import RealEstate from "../src/images/RealEstate.png";
 import "../src/styles/App.css";
 
 function Proyectos() {
@@ -22,7 +22,7 @@ function Proyectos() {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <img src={Equipo} alt="Proyecto" />
-            <button className="btnMoreInf">Más información</button>
+            
           </div>
           <div className="flip-card-back">
             <h2 className="flip-card-back-title">Proyecto:</h2>
@@ -44,7 +44,7 @@ function Proyectos() {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <img src={Calculator} alt="Proyecto" />
-            <button className="btnMoreInf">Más información</button>
+            
           </div>
           <div className="flip-card-back">
             <h2 className="flip-card-back-title">Proyecto:</h2>
@@ -64,7 +64,7 @@ function Proyectos() {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <img src={Coctails} alt="Proyecto" />
-            <button className="btnMoreInf">Más información</button>
+           
           </div>
           <div className="flip-card-back">
             <div className="flip-card-back-info">
@@ -88,7 +88,6 @@ function Proyectos() {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <img src={Owen} alt="Proyecto" />
-            <button className="btnMoreInf">Más información</button>
           </div>
           <div className="flip-card-back">
             <h2 className="flip-card-back-title">Proyecto:</h2>
@@ -111,7 +110,6 @@ function Proyectos() {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <img src={Cards} alt="Proyecto" />
-            <button className="btnMoreInf">Más información</button>
           </div>
           <div className="flip-card-back">
             <h2 className="flip-card-back-title">Proyecto:</h2>
@@ -133,7 +131,6 @@ function Proyectos() {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <img src={Bibliography} alt="Proyecto" />
-            <button className="btnMoreInf">Más información</button>
           </div>
           <div className="flip-card-back">
             <h2 className="flip-card-back-title">Proyecto:</h2>
@@ -151,7 +148,6 @@ function Proyectos() {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <img src={Restaurants} alt="Proyecto" />
-            <button className="btnMoreInf">Más información</button>
           </div>
           <div className="flip-card-back">
             <h2 className="flip-card-back-title">Proyecto:</h2>
@@ -169,7 +165,6 @@ function Proyectos() {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <img src={CardsRef} alt="Proyecto" />
-            <button className="btnMoreInf">Más información</button>
           </div>
           <div className="flip-card-back">
             <h2 className="flip-card-back-title">Proyecto:</h2>
@@ -190,8 +185,7 @@ function Proyectos() {
 	  <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
-            <img src={RealEstate} alt="Proyecto" />
-            <button className="btnMoreInf">Más información</button>
+            <img src={RealEstate} alt="Proyecto"/>
           </div>
           <div className="flip-card-back">
             <h2 className="flip-card-back-title">Proyecto:</h2>

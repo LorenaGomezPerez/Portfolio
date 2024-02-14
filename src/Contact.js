@@ -1,15 +1,23 @@
 import React from "react";
 
 function Contact() {
+
+
+	
   return (
     <div>
       <h2 id="Contacts" className="contact">* Contáctame *</h2>
-      <div className="contactContainer">
-        <div className="iconContainer">
-          <a title="llamar por teléfono" href="tel+600757306" target="_blank">
+	  <div className="contactContainer">
+
+	  <div className="iconContainer">
+          <a
+        	title="teléfono"  
+			href={`tel:+34600757306`}
+		>
             <i className="fa-solid fa-mobile-screen-button icon" />
           </a>
         </div>
+
         <div className="iconContainer">
           <a
             title="enviar email"
@@ -28,11 +36,6 @@ function Contact() {
             rel="noreferrer"
           >
             <i className="fa-brands fa-linkedin icon" />
-          </a>
-        </div>
-        <div className="iconContainer">
-          <a title="Instagram" href="." target="_blank" rel="noreferrer">
-            <i className="fa-brands fa-instagram icon" />
           </a>
         </div>
         <div className="iconContainer">
@@ -56,7 +59,8 @@ function Contact() {
           </a>
         </div>
       </div>
-    </div>
+	  </div>
+ 
   );
 }
 
