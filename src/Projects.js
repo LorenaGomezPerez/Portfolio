@@ -193,7 +193,7 @@ function Proyectos() {
               Desarrollo de una web para una inmobiliaria donde se gestiona la venta y alquiler de viviendas. En proyecto aún!!
             </p>
             <h2 className="flip-card-back-title">Tecnologías utilizadas:</h2>
-            <p className="flip-card-back-info">HTML, SASS, React, Vite, backend </p>
+            <p className="flip-card-back-info">HTML, SASS, React,Tailwind Css, Vite, backend </p>
           </div>
         </div>
       </div>
